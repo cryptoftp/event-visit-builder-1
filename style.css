@@ -1,0 +1,93 @@
+body {
+  margin: 0;
+  padding: 36px 18px;
+  background: #f3f6fa;
+  color: #20334a;
+  font-family: Arial, sans-serif;
+  line-height: 1.55;
+}
+
+.page {
+  max-width: 640px;
+  margin: 0 auto;
+}
+
+.event-card, .services-card, .result-card, .json-card {
+  padding: 28px;
+  border: 1px solid #dce5ed;
+  background: #ffffff;
+  border-radius: 14px;
+  box-shadow: 0 7px 26px #1a36500a;
+}
+
+.services-card, .result-card, .json-card {
+  margin-top: 22px;
+}
+
+.eyebrow {
+  color: #31759b;
+  font-size: 12px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+}
+
+.event-date, .event-place {
+  margin: 8px 0;
+  color: #456780;
+}
+
+.description {
+  margin: 22px 0;
+}
+
+.hint {
+  color: #6c8091;
+  margin-top: -6px;
+}
+
+.service-option {
+  display: block;
+  margin: 12px 0;
+  padding: 13px;
+  border: 1px solid #e0e8ef;
+  border-radius: 8px;
+  background: #fafcfe;
+}
+
+.service-option span {
+  float: right;
+  color: #41647a;
+}
+
+.program {
+  margin-top: 18px;
+  padding: 15px;
+  border-left: 3px solid #417ca4;
+  background: #edf5fa;
+}
+
+.error {
+  color: #a72e39;
+  margin: 16px 0;
+}
+
+.json-card {
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+  font-size: 13px;
+}
+
+button {
+  padding: 11px 18px;
+  border: 1px solid #275f86;
+  border-radius: 7px;
+  background: #275f86;
+  color: white;
+  font: inherit;
+  cursor: pointer;
+}
+
+h1 { margin: 12px 0 16px; font-size: 32px; }
+h2 { margin: 0 0 10px; font-size: 21px; }
+
+[hidden] { display: none; }
